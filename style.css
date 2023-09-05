@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(248, 232, 166);
+}
+.container-div {
+  text-align: center;
+}
+.contact {
+  color: rgb(0, 0, 238);
+}
+@media (max-width: 576px) {
+  .container-div {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  img {
+    width: 360px;
+  }
+  p {
+    font-size: 14px;
+    margin: 0px 10px;
+  }
+  footer {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  @media (min-width: 768px) {
+    .container-div {
+      text-align: center;
+    }
+    h1 {
+      text-align: center;
+    }
+    img {
+      width: 360px;
+    }
+    footer {
+      text-align: center;
+    }
+  }
+}
